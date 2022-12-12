@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    nav[role="navigation"] > div > div > span > span > span {
+        @apply bg-slate-700 text-slate-500;
+    }
+
+    nav[role="navigation"] > div > div > span > a {
+        @apply bg-slate-700 text-white;
+    }
+}
